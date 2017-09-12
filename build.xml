@@ -7,7 +7,7 @@
   <property name="work.home"    value="${basedir}/work"/>
   <property name="dist.home"     value="${basedir}/dist"/>
   <property name="src.home"      value="${basedir}/src"/>
-  <property name="web.home"      value="${basedir}/web"/>
+  <property name="web.home"      value="${basedir}/WebContent"/>
 
   <target name="help">
     <echo>You can use the following targets:</echo>
