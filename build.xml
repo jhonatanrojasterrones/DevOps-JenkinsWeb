@@ -2,7 +2,6 @@
   <!-- Ant Demo Project -->
   <!-- Define the properties used by the Ant build -->
   <property name="app.name"      value="MicroServiceWeb"/>
-  <property name="app.version"   value="1.1-dev"/>
   <property name="tcserver.home" value="/etc/tomcat7" />
   <property name="work.home"    value="${basedir}/work"/>
   <property name="dist.home"     value="${basedir}/dist"/>
@@ -67,7 +66,7 @@
 
   <target name="dist" depends="compile"
           description="Create WAR file for binary distribution">
-    <jar jarfile="${dist.home}/${app.name}-${app.version}.war"
+    <jar jarfile="${dist.home}/${app.name}.war"
          basedir="${work.home}"/>
   </target>
 
